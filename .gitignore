@@ -1,1 +1,7 @@
+# compiled output
+/dist
 /node_modules
+
+# IDE - VSCode
+.env
+package-lock.json
