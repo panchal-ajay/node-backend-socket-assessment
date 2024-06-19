@@ -63,7 +63,6 @@ export class ChatService {
       const insertObj = {
         userId: body.userId,
         receiveId: body.receiveId,
-        destinationId: body.destinationId,
         isActive: true,
       };
       const createOrder = await this.orderModel.create(insertObj);

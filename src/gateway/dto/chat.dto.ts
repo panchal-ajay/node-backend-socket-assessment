@@ -23,9 +23,4 @@ export class CreateOrderDto {
   @IsNotEmpty()
   @IsNumber()
   receiveId: string;
-
-  @ApiProperty()
-  @IsNotEmpty()
-  @IsNumber()
-  destinationId: string;
 }
